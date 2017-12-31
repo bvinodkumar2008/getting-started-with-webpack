@@ -1,0 +1,23 @@
+{
+    "name": "getting_started_with_webpack",
+    "version": "1.0.0",
+    "main": "app.js",
+    "scripts": {
+        "start": "webpack app.js bundle.js"
+    },
+    "author": "Vinod Kumar B",
+    "license": "ISC",
+    "keywords": [
+        "Webpack"
+    ],
+    "description": "Getting started guide to webpack",
+    "dependencies": {
+        "css-loader": "^0.28.7",
+        "jquery": "^3.2.1",
+        "style-loader": "^0.19.1",
+        "webpack": "^3.10.0"
+    },
+    "devDependencies": {
+        "webpack-dev-server": "^2.9.7"
+    }
+}
